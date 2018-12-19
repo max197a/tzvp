@@ -1,0 +1,34 @@
+.production
+  background: #dde0e4
+  padding: 95px 0 157px
+  &__grid
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+    padding-top: 62px
+    p
+      max-width: 295px
+      color: #6e7686
+      font-family: $regular
+      font-size: 14px
+      line-height: 1.75
+      letter-spacing: 0.65px
+  &__info
+    padding-top: 73px
+    font-size: 0
+    position: relative
+    &:before
+      position: absolute
+      display: block
+      content: ''
+      background: $green
+      width: 10000px
+      height: 223px
+      top: 73px
+      right: calc(100% - 294px)
+  img
+    width: 1019px
+    height: auto
+    margin-left: -9px
+    position: relative
+    z-index: 2

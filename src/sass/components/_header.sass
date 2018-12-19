@@ -1,0 +1,46 @@
+/* HEADER
+.header
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 100
+  transform: translate3d(0,0,0)
+  padding: 23px 0 20px
+  border-bottom: 1px solid #333
+  width: 100%
+  background: #ffffff
+  border-bottom: 5px solid $green
+  &__wrapper
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__image
+    font-size: 0
+    img
+      width: 149px
+      height: 27px
+  &__list
+    padding-right: 108px
+    display: flex
+    align-items: center
+  &__item
+    font-size: 16px
+    color: #6e7686
+    font-family: $medium
+    margin-left: 44px
+    letter-spacing: 0.4px
+    transition: all $transitionSpeed $ease
+    position: relative
+    &:hover
+      color: #3d424c
+      &:before
+        width: 100%
+    &:before
+      width: 0
+      height: 1px
+      background: #3d424c
+      bottom: -2px
+      position: absolute
+      display: block
+      content: ''
+      transition: all $transitionSpeed $ease

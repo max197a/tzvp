@@ -1,0 +1,108 @@
+---
+title: TZVP
+---
+extends shared/_layout
+block content
+
+  // BEGIN SECTION :: firstscreen
+  section.firstscreen
+    .container
+      .firstscreen__info
+        p «Зелёные инвестиции» 
+          span с доходностью 28% годовых
+
+  // BEGIN SECTION :: firstscreen
+
+  // BEGIN SECTION :: about
+  section.about
+    .container
+      h2 о заводе
+      .about__grid
+        .about__image
+          img(src="img/map.png", alt="")
+        .about__right
+          .about__list
+            p Тверской Завод Вторичных Полимеров (ТЗВП), входящий в Группу Компаний «ЭкоТехнологии», начал свою деятельность в Твери, на территории бывшего завода ХимВолокно. С 2005 года и на сегодняшний день является крупнейшим в России предприятием по переработке вторичной пластиковой упаковки с ежегодным объёмом переработки более 20 000 тонн.
+            p По состоянию на сентябрь 2018 года на ТЗВП работает более 300 человек.
+            p Ежемесячно завод даёт новую жизнь более, чем 60 млн ПЭТ-бутылок.
+            p Завод внесён в Территориальную Схему Тверской области по управлению отходами, как утилизатор отходов пластика.
+  // END SECTION :: about
+
+  // BEGIN SECTION :: production
+  section.production
+    .container
+      h2 производство
+      .production__grid
+        p С 2005 года завод показывает динамичное наращивание объёмов переработки, ежегодно подтверждая актуальность, привлекательность и целесообразность рециклингового бизнеса в России.
+        p ТЗВП сегодня — готовая производственная площадка для удвоения выпуска хлопьев и вторичного гранулята.
+        p К 2025 году прогнозируется рост рынка вторичного гранулята в России в десятки раз, что безусловно отразится на оборотах крупнейших игроков и ТЗВП, как основного из них.
+      .production__info
+        img(src="img/info-graph.png", alt="")
+
+  // END SECTION :: production
+
+  // BEGIN SECTION :: product
+  section.product
+    .container
+      h2 ПРОДУКЦИЯ
+      p.product__desc Продукция ТЗВП, произведенная из вторичных полимеров, снижает нагрузку на мусорные полигоны и позволяет потребителям экономически и экологически эффективно производить пластиковую продукцию.
+      .product__grid
+        .product__item
+          p.product__title ПЭТ флейки
+          .product__image
+            img(src="img/img1-1.png", alt="")
+          p.product__info Высокое качество ПЭТ-хлопьев, в точности соответствующее требованиям специфического потребителя, является ключевым моментом производственной стратегии АО «ЭкоТехнологии».
+        .product__item
+          p.product__title ПНД гранулы
+          .product__image
+            img(src="img/img1-2.png", alt="")
+          p.product__info Производственные мощности Тверского Завода Вторичных Полимеров на данный момент позволяют перерабатывать порядка 400 тонн вторичной гранулы ПНД, полученной при рециклинге из твёрдых коммунальных отходов.
+        .product__item
+          p.product__title ПЭТ лента
+          .product__image
+            img(src="img/img1-3.png", alt="")
+          p.product__info Полиэстеровая упаковочная лента имеет прочностные характеристики, сопоставимые со стальной лентой, полиэстер превосходит металл по ряду параметров: эластичность (или возвратная память), экономичность (вес полиэстеровых лент в 7 раз ниже, чем стальных), устойчивость к ударным нагрузкам и химическому воздействию.
+
+  // END SECTION :: product
+
+  // BEGIN SECTION :: magic
+  section.magic
+    .container
+      .magic__image
+        img(src="img/info-product.png", alt="")
+        p.magic__title это магия!
+        p.magic__desc пластиковый мусор преобразуется 
+          br 
+          | в реальный доход
+        p.magic__p1 Полиэфирное волокно 
+        p.magic__p2 Мононить
+        p.magic__p3 Наполнитель для ТНП
+        p.magic__p4 ПЭТ-плёнка и листы
+        p.magic__p5 ПЭТ-лента, ПЭТ-щётки
+        p.magic__p6 ПЭТ-преформы
+
+
+  // END SECTION :: magic
+
+  // BEGIN SECTION :: consumers
+  section.consumers
+    .container
+      h2 Потребители
+      .consumers__image
+        img(src="img/info-consumers.png", alt="")
+      p Крупные иностранные корпорации (Pepsico, Danone, Coca Cola, Nestle, Uniliver, P&G и другие производители и пользователи ПЭТ тары) декларируют потребление упаковки на 30% к 2020 году и на 100% из вторсырья к 2025 году, что является свидетельством перспективности отрасли вторичной переработки ПЭТ тары в мире и РФ.
+
+  // END SECTION :: consumers
+
+  // BEGIN SECTION :: map
+  section.map
+    .map__map
+      iframe(src="https://yandex.ru/map-widget/v1/?um=constructor%3Acaa92b06a5ffe0731f2e2f6a7e460db57c8c5b901066c2d55aa551302b10f43e&amp;source=constructor" width="100%" height="627" frameborder="0")
+    .container
+      .map__info
+        p.map__title Тверской Завод  Вторичных Полимеров
+        p.map__address 170000, Тверь, площадь Гагарина, дом 1
+        a.map__phone(href="#") +7 4822-39-44-96
+        a.map__mail(href="#") info@tzvp.ru
+
+  // END SECTION :: map
