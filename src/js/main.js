@@ -71,7 +71,7 @@ $(document).ready(function() {
 
   function scrollToSection(el) {
     var headerHeight = $(".header").height();
-    var targetScroll = el.offset().top - headerHeight / 100;
+    var targetScroll = el.offset().top - 60;
     // document.scrollingElement || document.documentElement
 
     TweenLite.to(window, 1, {
